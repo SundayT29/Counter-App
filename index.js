@@ -13,3 +13,8 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+function reset() {
+    document.getElementById("count-el").textContent = 0;
+    document.getElementById("save-el").innerText = "Previous entries: ";
+}
